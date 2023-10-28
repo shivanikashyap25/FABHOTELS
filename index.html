@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fab Hotels</title>
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+      <!------HEADER------> 
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>FAB</span>Hotels</a>
+        <nav class="navbar">
+            <a href="#HOME">HOME</a>
+            <a href="#BOOK">BOOK</a>
+            <a href="#PACKAGES">PACKAGES</a>
+            <a href="#SERVICES">SERVICES</a>
+            <a href="#GALLERY">GALLERY</a>
+            <a href="#REVIEW">REVIEW</a>
+            <a href="#CONTACT">CONTACT</a>
+
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search Here....">
+            <label for="search-bar"class="fas fa-search"></label>
+        </form>
+    </header> 
+<!-----login form container ------->
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>LOGIN</h3>
+        <input type="email" class="box" placeholder="Enter Your Email">
+        <input type="password" class="box" placeholder="Enter Password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember"> Remember Me</label>
+        <p>Forgot Password? <a href="#">Click Here </a></p>
+        <p>Don't Have An Account? <a href="#">Register Now</a></p>
+
+    </form>
+
+</div>
+<!------Home section------>
+<section class="home" id="home">
+    <div class="content">
+        <h3>Welcome To The World Of Luxury</h3>
+        <p>Luxury Awaits! Discover Places With Us</p>
+        <a href="#" class="btn">Dicover Here</a>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid5.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="images/vid1.mp4" id="video-slider" loop autoplay muted></video>
+
+    </div>
+
+</section>
+<!-----Book section starts -------->
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>B</span>
+        <span>O</span>
+        <span>O</span>
+        <span>K</span>
+        <span class="space"></span>
+        <span>N</span>
+        <span>O</span>
+        <span>W</span>
+    </h1>
+    <div class="row">
+        <div class="img">
+            <img src="images/new25.jpeg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <h3>Destination ?</h3>
+                <input type="text" placeholder="Place Name">
+            </div>
+            <div class="inputBox">
+                <h3>How Many ?</h3>
+                <input type="number" placeholder="Number Of Guests">
+            </div>
+            <div class="inputBox">
+                <h3>Check In</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Check Out</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="BOOK NOW !">
+
+        </form>
+    </div>
+
+</section>
+<!------------packages section ------------>
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>P</span>
+        <span>A</span>
+        <span>C</span>
+        <span>K</span>
+        <span>A</span>
+        <span>G</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/maldives.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Maldives</h3>
+                <p>The Maldives, an enchanting tropical paradise in the Indian Ocean, is famous for its breathtaking coral atolls, turquoise waters, and pristine white-sand beaches. With over 1,000 coral islands, it's a haven for travelers seeking a perfect blend of natural beauty and luxury. The country's unique overwater bungalows and world-class diving and snorkeling sites attract visitors from all over the world. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="price">$178<span>$230</span></div>
+                <a href="#" class="btn">BOOK NOW</a> 
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/tokyo.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Tokyo</h3>
+                <p>Tokyo, the bustling capital of Japan, is a city where tradition meets modernity in a fascinating way. With a skyline adorned by towering skyscrapers and ancient temples nestled among the city's vibrant neighborhoods, Tokyo offers a unique blend of old and new. From the neon-lit streets of Shibuya to the serene gardens of the Imperial Palace, Tokyo caters to a wide range of interests. The city is also a culinary mecca, offering a rich tapestry of Japanese cuisine, from sushi to ramen. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="price">$230<span>$275</span></div>
+                <a href="#" class="btn">BOOK NOW</a> 
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/dubai.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Dubai</h3>
+                <p>Dubai, a glittering gem in the United Arab Emirates, is a city synonymous with opulence and innovation. Known for its iconic skyscrapers, including the Burj Khalifa, the world's tallest building, and the man-made Palm Jumeirah island, Dubai is a testament to modern architectural marvels. This desert oasis seamlessly combines tradition and modernity, with vibrant souks and historic sites juxtaposed against luxury shopping malls and a dynamic nightlife scene. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price">$150<span>$200</span></div>
+                <a href="#" class="btn">BOOK NOW</a> 
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/italy.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Italy</h3>
+                <p>Italy, a captivating country in southern Europe, is renowned for its rich history, art, culture, and cuisine. The birthplace of the Roman Empire, Italy boasts a vast heritage of ancient ruins, beautiful Renaissance art, and picturesque landscapes. Iconic cities like Rome, Florence, and Venice hold treasures like the Colosseum, Michelangelo's David, and the romantic canals of Venice. Italy's culinary excellence shines with its world-famous pasta, pizza, and fine wines, while the charming countryside is adorned with vineyards and olive groves. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="price">$211<span>$275</span></div>
+                <a href="#" class="btn">BOOK NOW</a> 
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/japan.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Japan</h3>
+                <p>Japan, an island nation in East Asia, is a captivating blend of ancient traditions and cutting-edge modernity. With a rich cultural heritage, Japan offers visitors a glimpse into centuries-old customs, from tea ceremonies to the timeless beauty of cherry blossoms in spring. Iconic landmarks like Kyoto's historic temples and Tokyo's futuristic skyline coexist in harmony. Japan's cuisine is renowned worldwide, with sushi, ramen, and tempura being just a few examples of its culinary treasures. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+                <div class="price">$240<span>$318</span></div>
+                <a href="#" class="btn">BOOK NOW</a> 
+
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/paris.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Paris</h3>
+                <p>Paris, often referred to as the "City of Love" and the "City of Lights," is the iconic capital of France. Known for its timeless elegance and rich history, Paris is a cultural hub that beckons travelers from around the globe. Its stunning landmarks, such as the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum, are testaments to the city's architectural and artistic brilliance. Parisian streets are lined with charming cafes, haute couture boutiques, and patisseries, offering some of the finest cuisine and fashion in the world. The Seine River winds through the heart of the city, adding to the romantic allure of Paris.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+                <div class="price">$200<span>$235</span></div>
+                <a href="#" class="btn">BOOK NOW</a> 
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-------services section ------------>
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>S</span>
+        <span>E</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+                <h3>AFFORDABLE HOTELS</h3>
+                <p>Affordable hotels offer budget-conscious travelers a comfortable and cost-effective accommodation option. These establishments provide basic amenities, clean and well-maintained rooms, and often convenient locations. While they may not offer the luxury and services of higher-end hotels, they cater to travelers seeking a practical and wallet-friendly place to stay. Affordable hotels come in various forms, from budget chains to boutique guesthouses, allowing travelers to find options that suit their preferences and price range. </p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>FOOD AND DRINKS</h3>
+                <p>Food and drinks are not just a necessity but a delightful part of our daily lives. They encompass a world of flavors, cultures, and experiences. From savoring a hearty homemade meal to exploring exotic cuisines in restaurants, food connects us to our heritage and to global culinary traditions. It's a form of art, an expression of love, and a way to bring people together. The diversity of food and drinks is boundless, from street food stalls serving spicy noodles to high-end restaurants offering gourmet tasting menus.</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+                <h3>SAFETY GUIDE</h3>
+                <p>A safety guide is an invaluable resource that provides essential information and tips to help individuals stay safe in various situations. These guides cover a wide range of topics, from home safety and emergency procedures to personal security and travel safety. They offer practical advice on how to prevent accidents, respond to emergencies, and protect oneself and others. Safety guides are especially crucial in promoting awareness and preparedness, helping people make informed decisions and take proactive measures to minimize risks in their everyday lives.</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+                <h3>AROUND THE WORLD</h3>
+                <p>Traveling around the world is a dream for many adventurous souls. It represents a journey of discovery, where one can explore diverse cultures, landscapes, and experiences. Circumnavigating the globe allows travelers to witness the beauty of our planet, from the majestic peaks of the Himalayas to the pristine beaches of the Maldives. It's an opportunity to taste a smorgasbord of cuisines, learn new languages, and make friends in far-flung places. </p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+                <h3>FASTER TRAVEL</h3>
+                <p>In an increasingly fast-paced world, the quest for faster travel options has become a top priority. Advancements in technology have given rise to innovations like high-speed trains, supersonic jets, and even the exploration of hyperloop systems, all aimed at reducing travel time. Faster travel not only saves time but also transforms the way we connect with people and places. It makes distant destinations more accessible, fostering greater mobility and opportunities for business and leisure.</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+                <h3>ADVENTURE</h3>
+                <p>Adventure is the essence of exploration and risk-taking, where the unknown beckons and challenges the spirit of curiosity and courage. It's about stepping outside one's comfort zone, whether by embarking on a wilderness trek, diving into uncharted waters, or even pursuing an unconventional career path. Adventure is the pursuit of excitement, self-discovery, and unforgettable experiences. It's a reminder that life's most rewarding moments often come when we embrace the unexpected and venture into the unexplored. </p>
+
+        </div>
+    </div>
+</section>
+<!-----Gallery section ---------->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>A</span>
+        <span>L</span>
+        <span>L</span>
+        <span>E</span>
+        <span>R</span>
+        <span>Y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/ad1.jpeg" alt="">
+            <div class="content">
+                <h3>SCUBA DIVING!!!</h3>
+                <p>Scuba diving is a thrilling underwater adventure that unveils a mesmerizing world beneath the waves.</p>
+                <a href="#" class="btn">SEE MORE!</a>
+            </div>
+    
+        </div>
+        <div class="box">
+            <img src="images/ad2.jpeg" alt="">
+            <div class="content">
+                <h3>CYCLING!!!</h3>
+                <p>Cycling is more than just a means of transportation, it's a lifestyle and a passion for many.</p>
+                <a href="#" class="btn">SEE MORE!</a>
+            </div>
+    
+        </div>
+        <div class="box">
+            <img src="images/ad3.jpeg" alt="">
+            <div class="content">
+                <h3>WATER SKIING!!!</h3>
+                <p>Water skiing is an exhilarating aquatic sport that combines the thrill of speed with the serenity of skimming across the water's surface.</p>
+                <a href="#" class="btn">SEE MORE!</a>
+            </div>
+    
+        </div>
+        <div class="box">
+            <img src="images/ad4.jpeg" alt="">
+            <div class="content">
+                <h3>CAMPING!!!</h3>
+                <p>Camping is a timeless outdoor adventure that invites individuals to escape the hustle and bustle of urban life. </p>
+                <a href="#" class="btn">SEE MORE!</a>
+            </div>
+    
+        </div>
+        <div class="box">
+            <img src="images/ad5.jpeg" alt="">
+            <div class="content">
+                <h3>TREKKING!!!</h3>
+                <p>Trekking is a journey of self-discovery through nature's most breathtaking landscapes.  </p>
+                <a href="#" class="btn">SEE MORE!</a>
+            </div>
+    
+        </div>
+        <div class="box">
+            <img src="images/ad6.jpeg" alt="">
+            <div class="content">
+                <h3>CAR TENT!!!</h3>
+                <p>A car tent, often known as a rooftop tent, is a portable and convenient camping solution</p>
+                <a href="#" class="btn">SEE MORE!</a>
+            </div>
+    
+        </div>
+        <div class="box">
+            <img src="images/ad7.jpeg" alt="">
+            <div class="content">
+                <h3>MOUNTAIN CLIMBING!!!</h3>
+                <p>Mountain climbing offers a profound sense of accomplishment, as reaching a summit rewards climbers with breathtaking panoramic views</p>
+                <a href="#" class="btn">SEE MORE!</a>
+            </div>
+    
+        </div>
+        <div class="box">
+            <img src="images/ad8.jpeg" alt="">
+            <div class="content">
+                <h3>SNOW SKIING!!!</h3>
+                <p>Snow skiing is a thrilling winter sport that lures individuals to the snow-covered slopes of mountains around the world.</p>
+                <a href="#" class="btn">SEE MORE!</a>
+            </div>
+    
+        </div>
+        <div class="box">
+            <img src="images/ad9.jpeg" alt="">
+            <div class="content">
+                <h3>TREE CLIMBING!!!</h3>
+                <p>Tree climbing is a unique outdoor activity that allows individuals to reconnect with nature by ascending the majestic canopies of trees. </p>
+                <a href="#" class="btn">SEE MORE!</a>
+            </div>
+    
+        </div>
+    
+    </div>
+</section>
+<!--review section -------->
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>R</span>
+        <span>E</span>
+        <span>V</span>
+        <span>I</span>
+        <span>E</span>
+        <span>W</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p1.webp" alt="">
+                    <h3>SUSAN BEY</h3>
+                    <p>The atmosphere was fantastic
+                    Great rooms and service
+                    Breakfast had good variety and was substantial in choice
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p2.webp" alt="">
+                    <h3>EDWARD RUSE</h3>
+                    <p>Exceptional staff, services and cuisine. Loved my stay and will be back.<br> The chinese restaurant was excellent
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p3.jpeg" alt="">
+                    <h3>RUBY NICHOLAS </h3>
+                    <p>We booked a deluxe room at the hotel including a choice of dinner lunch + breakfast.The entire experience was exquisite.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p4.webp" alt="">
+                    <h3>ANDERS ALVIS</h3>
+                    <p>It's was my wife's birthday the day when checked in and had requested the staff for a small arrangement of cake & decor in room,the staff went one step ahead & did amazing decor in room.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p5.webp" alt="">
+                    <h3>ADOMAS</h3>
+                    <p>Safe, exceptional staffs, some of the best food, accessible and value for money.Just a wow !
+
+
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/p6.webp" alt="">
+                    <h3>ELIZABETH</h3>
+                    <p>Its a nice and clean hotel. Rooms were very comfortable and clean. Staff was very polite and helpful.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+<!-----------contact section ------------>
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+    </h1> 
+    <div class="row">
+        <div class="img">
+            <img src="images/joinus.webp" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="email" placeholder="Enter Your Email-ID">
+
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Enter Your PhoneNO">
+                <input type="text" placeholder="Subject">
+            </div>
+             <textarea placeholder="Message" name="" cols="30" rows="10"></textarea>
+             <input type="submit" class="btn" value="SEND MESSAGE!">
+        </form>
+    </div>
+</section>
+<!--------Footer section ---------->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>ABOUT US</h3>
+            <p>FAB Hotels is a chain of luxury hotels and a subsidiary of the Indian Hotels Company Limited,headquartered in Mumbai, India.<br>Ten hotels of the FAB Group are members of the Leading Hotels of the World.</p>
+
+
+        </div>
+        <div class="box">
+            <h3>BRANCH LOCATIONS</h3>
+            <a href="#">Maldives</a>
+            <a href="#">USA</a>
+            <a href="#">Dubai</a>
+            <a href="#">Philippines</a>
+            <a href="#">Japan</a>
+            <a href="#">Paris</a>
+        </div>
+        <div class="box">
+            <h3>QUICK LINKS</h3>
+            <a href="#">HOME</a>
+            <a href="#">BOOK</a>
+            <a href="#">PACKAGE</a>
+            <a href="#">SERVICES</a>
+            <a href="#">GALLERY</a>
+            <a href="#">REVIEW</a>
+            <a href="#">CONTACT US</a>
+        </div>
+        <div class="box">
+            <h3>FOLLOW US ON</h3>
+            <a href="#">INSTAGRAM</a>
+            <a href="#">TWITTER</a>
+            <a href="#">FACEBOOK</a>
+            <a href="#">LINKEDIN</a>
+        </div>
+
+    </div>
+    <h1 class="credit">Created By <span> M SHIVANI KASHYAP</span> | All Rights Reserved </h1>
+
+</section>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!---js file ---->
+    <script src="main.js"></script>
+    </body>
+
+</html>
