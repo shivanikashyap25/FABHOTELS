@@ -1,3 +1,3 @@
-# WEEK4
-Hey Guys this is my final task of this internship on Online Hotel Booking and the link for my website is given below
+FAB HOTELS
+This is the structure of the hotel booking website that I developed, I have used HTML, CSS, and JavaScript.
 https://onlinehotelbooking.netlify.app/
